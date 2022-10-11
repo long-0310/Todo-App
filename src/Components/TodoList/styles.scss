@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+.todo-list {
+    & > li {
+        cursor: pointer;
+    }
+
+     li.completed {
+        text-decoration: line-through;
+        font-size: italic;
+        color: #ccc;
+    }
+
+    list-style-type: none;
+}
+.todo-styles {
+    height: 100px;
+    // width: 50px;
+    background-color: #FEF3C7;
+}
+.list-styles {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #FDE68A;
+}
+.styles {
+    font-size: 24px;
+    font-family: 'Pangolin', cursive;
+}
+.btn-delete {
+   background: none;
+    border: none;
+    color : #d9c574;
+    font-size: 24px;
+}
+.btn-delete:hover {
+    color : #e01c1c;
+   
+}

@@ -1,0 +1,29 @@
+.input-text {
+    width: 400px;
+    height: 50px;
+    border: 2px solid rgba(251, 191, 36);
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 12px;
+}
+.input-text:focus {
+    outline: none;
+    border-color: rgb(187, 140, 21);
+}
+.submit-btn {
+    width: 50px;
+    height: 50px;
+    padding: 6px 0px;
+    border-radius: 70px;
+    background-color: #10B981;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    color: white;
+    line-height: 1.42857;
+}
+
+.submit-btn:hover {
+    background-color: #31c795;
+    box-shadow: 0 4px 8px rgba(33,33,33,.1);
+}

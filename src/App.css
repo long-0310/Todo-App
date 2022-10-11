@@ -1,9 +1,50 @@
 .App {
+  margin: 40px auto;
   text-align: center;
+  width: 70%;
 }
-
+.todos-list {
+  text-align: center;
+  margin: 20px auto;
+  min-height: 400px;
+  padding: 24px;
+  padding-bottom: 100px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: #fef3c7;
+  position: relative;
+}
+.todo-lists button {
+  display: inline-block;
+}
+.title-list {
+  color: #b45309;
+  display: flex;
+  font-size: 18px;
+  margin: 0;
+}
+.btn-click {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-click button {
+  width: 100px;
+  height: 44px;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  background-color: #c6ab41;
+}
+.btn-click button:hover {
+  background-color: #987c0a;
+}
 .App-logo {
-  height: 40vmin;
+  height: 40vh;
   pointer-events: none;
 }
 
